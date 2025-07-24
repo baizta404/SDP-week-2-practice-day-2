@@ -29,8 +29,17 @@ const fetchRecipies = async(searchInput) =>{
         `;
         recpiesContainer.append(recipieDiv);
 
+        // individual recipie te press krole details dekhabe
+        const allDetailedRecipies = document.querySelectorAll(".details-recipie");
+        allDetailedRecipies.forEach()
+
     });
+
+
 }
+
+//bring details by id
+
 
 
 
