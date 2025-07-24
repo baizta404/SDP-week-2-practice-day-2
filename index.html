@@ -14,33 +14,35 @@
   </head>
   <body>
     <div class="container py-4">
-        <!-- search bar -->
-      <div class="input-group mb-3">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Enter The Item What You Looking For"
-          aria-label="Recipient’s username"
-          aria-describedby="button-addon2"
-        />
-        <button
-          class="btn btn-outline-primary"
-          type="button"
-          id="button-addon2"
-        >
-          Search
-        </button>
-      </div>
+      <!-- search bar -->
+      <header>
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="input-group mb-3">
+              <input
+                id="search-box"
+                type="text"
+                class="form-control"
+                placeholder="Find Your Favourite Food"
+                aria-label=""
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-success"
+                type="button"
+                id="search-btn"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
 
       <!-- In this will Show the Recpies -->
-
-      <div class="row my-4 bg-primary">
-        
-      </div>
-
-
-
-
+      <main>
+        <div id="recipies-container" class="row my-4"></div>
+      </main>
     </div>
 
     <script
